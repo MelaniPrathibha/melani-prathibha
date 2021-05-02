@@ -186,8 +186,12 @@ section .title::after {
 }
 
 /*skills section*/
+.skills{
+  background-color: oldlace;
+}
 .skills .title::after {
   content: "what I know";
+  background: oldlace;
 }
 .skills .skills-content .column {
   float: left;
@@ -266,8 +270,22 @@ section .title::after {
   width: 70%;
 }
 /*blogs*/
+.blogs .title::after{
+  content: "what I write";
+}
 /*contact me*/
+.contact{
+  background:oldlace;
+}
 .contact .title::after {
   content: "get in touch";
+  background: oldlace;
 }
-/* .contact .contact-content  */
+.contact .contact-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contact-content .row{
+  margin: 15px;
+}
