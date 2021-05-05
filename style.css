@@ -273,6 +273,10 @@ section .title::after {
 .blogs .title::after{
   content: "what I write";
 }
+.blogs .max-width .blogpost-content .blog{
+  position:inherit;
+  width: 50%;
+}
 /*contact me*/
 .contact{
   background:oldlace;
@@ -288,4 +292,8 @@ section .title::after {
 }
 .contact .contact-content .row{
   margin: 15px;
+  display: inline-flex;
+}
+.contact .contact-content .row .images{
+  padding-right: 10px;
 }
